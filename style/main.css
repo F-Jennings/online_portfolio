@@ -6,10 +6,49 @@
  */
 
 
-/* General page Styling */
+/* General */
 
 body {
-	background: #fcfcfc url("bg_texture.png") repeat center center;
+	background: #fcfcfc url("images/bg_texture.png") repeat center center;
 	width: 100%;
 	height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+ font-family: 'Crimson Text', serif;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+
+
+/* Navigation */
+
+#nav {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 20px 0;
+}
+
+.nav {
+	max-width: 308px;
+}
+
+.nav>li {
+	display: inline-block;
+	width: 100px;
+}
+
+#nav a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #333;
+	text-transform: uppercase;
 }
