@@ -167,10 +167,7 @@ h2 .bold {
 }
 
 .work img {
-	width: 106%;
-	margin: -10px;
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
+	width: 100%;
 }
 
 .work_copy {
