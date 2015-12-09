@@ -184,6 +184,10 @@ h2 .bold {
 	background-size: cover;
 }
 
+.portfolio_copy {
+	padding-top: 40px;
+}
+
 .lg{
 	height: 400px
 }
@@ -216,8 +220,8 @@ h2 .bold {
 }
 
 .three {
-	width: -webkit-calc(33.3333333% - 10px);
-  width: calc(33.33333% - 10px);
+	width: -webkit-calc(33.3333333% - 20px / 3);
+  width: calc(33.33333% - 20px / 3);
   margin-right: 10px;
 }
 
