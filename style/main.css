@@ -208,6 +208,10 @@ h2 .bold {
 	display: block;
 }
 
+.label {
+	max-width: 100px;
+}
+
 .two, .three {
 	float: left;
 	overflow: hidden;
