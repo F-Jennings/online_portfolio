@@ -164,16 +164,11 @@ h2 .bold {
 .work {
 	width: 90%;
 	margin: 30px auto;
+	text-align: center;
 }
 
 .work img {
 	width: 100%;
-}
-
-.work_copy {
-	width: 80%;
-	margin: 35px auto;
-	text-align: center;
 }
 
 .row {
@@ -182,11 +177,41 @@ h2 .bold {
 	display: block;
 	clear: both;
 	overflow: auto;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
-.stack {
+.portfolio_bg {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.portfolio_copy {
+	padding-top: 40px;
+}
+
+.lg{
+	height: 400px
+}
+
+.lg_half {
+	height: 195px;
 	display: block;
+	margin-bottom: 10px;
+}
+
+.sm {
+	height: 300px;
+}
+
+.sm_half {
+	height: 145px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.label {
+	max-width: 100px;
 }
 
 .two, .three {
@@ -207,6 +232,7 @@ h2 .bold {
 
 .last {
 	margin-right: 0 !important;
+	margin-bottom: 0 !important;
 }
 
 /* Media Queries */
