@@ -90,7 +90,7 @@ h2 .bold {
 	position: relative;
 }
 
-.homepage_copy {
+.main_copy {
 	position: relative;
 	top: -490px;
 	margin: 0 auto;
@@ -178,9 +178,11 @@ h2 .bold {
 
 .row {
 	width: 100%;
+	height: 100%;
 	display: block;
+	clear: both;
 	overflow: auto;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .stack {
@@ -189,19 +191,18 @@ h2 .bold {
 
 .two, .three {
 	float: left;
-	overflow: hidden;
 }
 
 .two {
 	width: -webkit-calc(50% - 5px);
-  width: calc(50% - 5px);
+  	width: calc(50% - 5px);
 	margin-right: 10px;
 }
 
 .three {
-	width: -webkit-calc(33.3333333% - 10px);
-  width: calc(33.33333% - 10px);
-  margin-right: 10px;
+	width: -webkit-calc(100% / 3 - 20px / 3);
+ 	width: calc(100% / 3 - 20px / 3);
+ 	margin-right: 10px;
 }
 
 .last {
@@ -212,8 +213,17 @@ h2 .bold {
 
 /* No animate */
 @media screen and (max-width: 960px) {
-	.path {
+
+	svg {
 		display: none;
+	}
+
+	.main_copy {
+		margin: 20px auto;
+		top: 0;
+		clear: both;
+		max-width: 90%;
+		text-align: center;
 	}
 }
 
@@ -221,10 +231,26 @@ h2 .bold {
 /* Tablet */
 @media screen and (max-width: 768px) {
 
+	.full {
+		width: 100% !important;
+		margin-bottom: 5px;
+
+	}
+
+	.three {
+		width: -webkit-calc(50% - 5px);
+  		width: calc(50% - 5px);
+	}
 }
 
 /* Mobile */
 @media screen and (max-width: 480px) {
+
+	h2,  h2.bold {
+		font-size: 23px;
+		line-height: 26px;
+	}
+
 	.left, .right {
 		float: none;
 	}
