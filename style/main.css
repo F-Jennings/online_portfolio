@@ -34,6 +34,13 @@ h3 {
 	font-family: 'Lato', sans-serif;
 }
 
+h4 {
+	font-size: 25px;
+	color:#fff;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
 h2 .bold {
 	font-weight: 700;
 	line-height: 20px;
@@ -245,7 +252,15 @@ h2 .bold {
 }
 
 .label {
-	max-width: 100px;
+	max-width: 200px;
+    margin-top: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+	max-width: 150px;
+	margin-bottom: 7px;
 }
 
 .two, .three {
@@ -267,6 +282,13 @@ h2 .bold {
 .last {
 	margin-right: 0 !important;
 	margin-bottom: 0 !important;
+}
+
+
+/* Footer */
+
+footer {
+
 }
 
 /* Media Queries */
