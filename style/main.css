@@ -30,7 +30,8 @@ h2 {
 
 h3 {
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
 }
 
 h2 .bold {
@@ -193,7 +194,7 @@ h2 .bold {
 
 .work {
 	width: 90%;
-	margin: 30px auto;
+	margin: 30px auto 50px auto;
 	text-align: center;
 	margin-top: 210px;
 }
@@ -219,6 +220,8 @@ h2 .bold {
 
 .portfolio_copy {
 	padding-top: 40px;
+	width: 80%;
+    margin: 0 auto;
 }
 
 .lg{
