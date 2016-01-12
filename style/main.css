@@ -50,6 +50,13 @@ h4 {
  	color: #a4a4a4;
  }
 
+ h6 {
+ 	font-size: 16px;
+ 	color:  #13acc2;
+ 	text-transform: uppercase;
+ 	font-weight: 700;
+ }
+
  p {
  	font-size: 16px;
  	font-weight: 300;
@@ -74,7 +81,7 @@ h4.featured {
 }
 
 .center {
-	margin: 0 auto;
+	margin: 0 auto !important;
 }
 
 .left {
@@ -316,7 +323,7 @@ h4.featured {
 	width: auto !important;
 }
 
-.two, .three {
+.two, .three, .two_three {
 	float: left;
 }
 
@@ -333,8 +340,8 @@ h4.featured {
 }
 
 .two_three {
-	width: -webkit-calc(100% / 3 * 2);
- 	width: calc(100% / 3 - 20px / 3);
+	width: -webkit-calc(100% / 3 * 2 - 20px / 3);
+ 	width: calc(100% / 3 * 2 - 20px / 3);
  	margin-right: 10px;
 }
 
@@ -365,11 +372,31 @@ footer {
 	margin-bottom: 7px;
 }
 
+.title {
+	margin-top: 30px;
+}
+
+.slim {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.space {
+	margin-top: 40px;
+}
+
+.icon {
+	max-width: 150px;
+	height: auto;
+	margin: 0 auto;
+}
+
 .section {
 	width: 100%;
 	max-width: 900px;
 	display: block;
-	margin: 30px auto;
+	padding-bottom: 30px;
+	margin: 50px auto;
 }
 
 .border {
