@@ -74,6 +74,12 @@ h4.featured {
 	font-size: 25px;
 }
 
+p.front_p {
+	font-size: 22px;
+	line-height: 28px;
+	margin-top: 3px;
+}
+
 .main {
 	max-width: 990px;
 	margin: 0 auto;
