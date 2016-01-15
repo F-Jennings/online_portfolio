@@ -8,7 +8,10 @@
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,700,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Tinos:400,700|Lato:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="style/reset.css" rel="stylesheet" type="text/css">
+    <link href="style/carousel.css" rel="stylesheet" type="text/css">
     <link href="style/main.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -18,7 +21,7 @@
     </div>
     <div class="right">
       <ul class="nav">
-        <li><a href="#">Resume</a></li>
+        <li><a href="images/CV.pdf">Resume</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -106,6 +109,57 @@
         <h6>Title</h6>
         <p>Nunc rhoncus sit amet erat eu luctus. Nulla et rhoncus urna, quis lacinia enim. Nullam ac dictum turpis, eu finibus mauris.</p>
       </div>
+      
+      <!-- Carousel -->
+       <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/mobile1.png" class="shadow" >
+      </div>
+
+      <div class="item">
+        <img src="images/mobile2.png" class="shadow ">
+      </div>
+    
+      <div class="item">
+        <img src="images/mobile3.png" class="shadow ">
+      </div>
+
+      <div class="item">
+        <img src="images/mobile4.png" class="shadow ">
+      </div>
+
+      <div class="item">
+        <img src="images/mobile5.png" class="shadow ">
+      </div>
+
+      <div class="item">
+        <img src="images/mobile6.png" class="shadow ">
+      </div>
+
+      <div class="item">
+        <img src="images/mobile7.png" class="shadow ">
+      </div>
+
+       <div class="item">
+        <img src="images/mobile8.png" class="shadow ">
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    </a>
+  </div>   
+
+
     </div>
     <svg viewBox="0 0 960 310" >
       <g fill="#13acc2">
@@ -150,6 +204,11 @@
   </div>
     <footer>
   </footer>
+  <script type="text/javascript">
+      $('.carousel').carousel({
+          interval: false
+      }); 
+  </script>
 </body>
 
 </html>
