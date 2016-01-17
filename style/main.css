@@ -433,6 +433,15 @@ footer {
 	text-align: left;
 }
 
+.dev_link {
+	color:  #13acc2;
+	font-weight: 300;
+}
+
+.dev_link:hover {
+	opacity: 0.6
+}
+
 .go_back {
 	padding-bottom: 30px;
 }
@@ -440,12 +449,12 @@ footer {
 .go_back a {
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	color:  #13acc2;
 }
 
 .go_back a:hover {
-	font-weight: 600;
+	opacity: 0.6;
 }
 
 
