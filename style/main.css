@@ -425,8 +425,8 @@ footer {
 
 .border {
 	border: 1px solid #e2e2e2;
-	width: calc(100%-2px) !important;
-	width: webkit-calc(100%-2px) !important;
+	width: calc( 100% - 2px) !important;
+	width: webkit-calc(100% - 2px) !important;
 
 }
 
@@ -528,6 +528,7 @@ footer {
 		width: calc(100% - 20px);
 		width: webkit-calc(100% - 20px);
 		margin: 25px auto;
+		padding-bottom: 10px;
 	}
 
 	.slim {
@@ -540,9 +541,6 @@ footer {
 	 	margin-right: 10px;
 	}
 
-	footer {
-		margin-top: 50px;
-	}
 }
 
 
@@ -555,6 +553,8 @@ footer {
 
 	.md_border {
 		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.special {
@@ -577,10 +577,6 @@ footer {
 	.three {
 		width: -webkit-calc(50% - 5px);
   		width: calc(50% - 5px);
-	}
-
-	.three.full {
-		margin-top: -5px;
 	}
 
 	h4,
@@ -610,6 +606,10 @@ footer {
 		width: webkit-calc(100% - 20px);
 		max-width: 600px;
 		margin: 0 auto !important; 
+	}
+
+	.caption {
+		margin-bottom: 15px;
 	}
 
 }
