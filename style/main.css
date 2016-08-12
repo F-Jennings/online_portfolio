@@ -285,9 +285,46 @@ p.front_p {
 }
 
 .portfolio_bg {
+	position: relative;
+	overflow: hidden;
+}
+
+.portfolio_bg_img {
+	position: absolute;
+
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.15);
+	background-blend-mode: multiply;
+
+	transition: all 0.25s;
+}
+
+.portfolio_bg_img:hover {
+	transform: scale(1.1);
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#brol_bg {
+	background-image: url(images/br_homepage.png);
+}
+
+#fb4b_bg {
+	background-image: url(images/fb4b_homepage.png);
+}
+
+#cibc_bg {
+	background-image: url(images/cibc_homepage.png);
+}
+
+#td_bg {
+	background-image: url(images/infographic_homepage.png);
 }
 
 .portfolio_copy {
