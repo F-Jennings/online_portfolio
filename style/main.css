@@ -49,10 +49,10 @@ h4 {
  }
 
  h6 {
- 	font-size: 16px;
- 	color:  #13acc2;
+ 	font-size: 18px;
  	text-transform: uppercase;
- 	font-weight: 700;
+ 	font-weight: 400;
+ 	letter-spacing: 1px;
  	margin-bottom: 5px;
  }
 
@@ -103,6 +103,11 @@ p.front_p {
 	border-radius: 38px;
 	background-color: #13acc2;
 	text-align: center;
+	margin-bottom: 40px;
+}
+
+.process .circle {
+	background-color: #d2d2d2;
 }
 
 .face {
@@ -188,9 +193,15 @@ p.front_p {
 }
 
 .main_copy {
-	margin: 140px auto;
+	margin: 100px auto 140px auto;
 	width: 700px;
 	text-align: center;
+}
+
+.main_copy.process {
+	border-bottom: 1px dotted #d2d2d2;
+	padding-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 
@@ -233,6 +244,7 @@ p.front_p {
 	width: 960px;
 	margin: 0 auto;
 	z-index: 1000;
+	border-bottom: 1px dotted #d2d2d2;
 }
 
 #nav a {
@@ -240,7 +252,6 @@ p.front_p {
 	font-weight: 300;
 	color: #333;
 	font-size: 16px;
-	text-transform: uppercase;
 }
 
 .nav {
@@ -257,8 +268,6 @@ p.front_p {
 	color: #13acc2;
     border-bottom: 2px solid #13acc2;
 }
-
-
 
 
 
@@ -360,7 +369,7 @@ p.front_p {
 	max-width: 700px;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 15px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -380,6 +389,28 @@ p.front_p {
 .slim {
 	max-width: 700px;
 	margin: 0 auto;
+}
+
+.constraints {
+	margin-top: 20px;
+}
+
+.constraints h6 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 11px;
+}
+
+.constraints ul {
+	margin: 20px 40px;
+}
+
+.constraints ul li {
+	list-style-type: disc;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding: 10px 10px;
 }
 
 .space {
@@ -420,23 +451,6 @@ p.front_p {
 .dev_link:hover {
 	opacity: 0.6
 }
-
-.go_back {
-	padding-bottom: 30px;
-	text-align: center;
-}
-
-.go_back a {
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	font-weight: 400;
-	color:  #13acc2;
-}
-
-.go_back a:hover {
-	opacity: 0.6;
-}
-
 
 /* Contact Info */
 
