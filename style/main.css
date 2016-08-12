@@ -464,6 +464,18 @@ p.front_p {
 	padding: 10px 10px;
 }
 
+.problem {
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 3px;
+	margin: 20px auto;
+}
+
+.problem p {
+	border-left: 2px solid #13acc2;
+	padding-left: 15px;
+}
+
 .space {
 	margin-top: 40px;
 }
