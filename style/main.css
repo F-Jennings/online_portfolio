@@ -113,6 +113,18 @@ p.front_p {
 	background-color: #FFD400;
 }
 
+.fb.circle {
+	background-color: #3b5998;
+}
+
+.cibc.circle {
+	background-color: #AE1F25;
+}
+
+.td.circle {
+	background-color: #4BB04F;
+}
+
 .face {
 	width: 70px;
 	height: 70px;
@@ -559,12 +571,17 @@ p.front_p {
 		display: none;
 	}
 
-	.main_copy {
-		margin: 20px auto;
+	.main_copy,
+	.main_copy.process {
+		margin: 40px auto;
 		top: 0;
 		clear: both;
 		max-width: 90%;
 		text-align: center;
+	}
+
+	.main_copy.process {
+		padding-bottom: 40px;
 	}
 
 	.work_home {
