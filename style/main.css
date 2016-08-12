@@ -8,6 +8,10 @@
 
  /* General */
 
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Tinos', serif;
 }
@@ -303,10 +307,10 @@ p.front_p {
 	background-color: rgba(0, 0, 0, 0.15);
 	background-blend-mode: multiply;
 
-	transition: all 0.25s;
+	transition: all 0.3s ease-in-out;
 }
 
-.portfolio_bg_img:hover {
+.portfolio-hover {
 	transform: scale(1.1);
 	background-color: rgba(0, 0, 0, 0.25);
 }
