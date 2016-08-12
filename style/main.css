@@ -8,10 +8,6 @@
 
  /* General */
 
-body {
-	background-color: #fcfcfc;
-}
-
 h1, h2, h3, h4, h5 {
 	font-family: 'Tinos', serif;
 }
@@ -86,7 +82,6 @@ p.front_p {
 .main {
 	max-width: 990px;
 	margin: 0 auto;
-	text-align: center;
 }
 
 .center {
@@ -107,6 +102,7 @@ p.front_p {
 	height: 76px;
 	border-radius: 38px;
 	background-color: #13acc2;
+	text-align: center;
 }
 
 .face {
@@ -313,12 +309,6 @@ p.front_p {
 	height: 400px
 }
 
-.lg_half {
-	height: 195px;
-	display: block;
-	margin-bottom: 10px;
-}
-
 .sm {
 	height: 300px;
 }
@@ -388,11 +378,13 @@ footer {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 15px;
+	text-align: center;
 }
 
 .intro h2,
 .main_copy h2 {
 	margin-bottom: 7px;
+	text-align: center;
 }
 
 .title {
@@ -400,7 +392,7 @@ footer {
 }
 
 .slim {
-	width: 60%;
+	max-width: 700px;
 	margin: 0 auto;
 }
 
@@ -445,6 +437,7 @@ footer {
 
 .go_back {
 	padding-bottom: 30px;
+	text-align: center;
 }
 
 .go_back a {
@@ -588,10 +581,6 @@ footer {
 		max-height: 20px;
 	}
 
-	.lg_half {
-		height: 400px;
-	}
-
 	.title {
 		margin: 10px auto 20px auto;
 	}
@@ -679,7 +668,6 @@ footer {
 	}
 
 	.lg,
-	.lg_half,
 	.sm_half,
 	.sm {
 		height: 200px;
