@@ -299,6 +299,7 @@ p.front_p {
 
 .portfolio_bg {
 	position: relative;
+
 	overflow: hidden;
 }
 
@@ -316,11 +317,13 @@ p.front_p {
 	background-color: rgba(0, 0, 0, 0.15);
 	background-blend-mode: multiply;
 
-	transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
 }
 
 .portfolio-hover {
 	transform: scale(1.1);
+
 	background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -728,7 +731,3 @@ p.front_p {
 
 
 }
-
-
-
-
