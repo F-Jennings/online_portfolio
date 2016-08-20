@@ -67,6 +67,10 @@ h4 {
  	line-height: 22px;
  }
 
+b {
+	font-weight: 400;
+}
+
 h2 .bold {
 	font-weight: 700;
 	line-height: 20px;
@@ -209,7 +213,7 @@ p.front_p {
 }
 
 .main_copy {
-	margin: 100px auto 140px auto;
+	margin: 100px auto 110px auto;
 	width: 700px;
 	text-align: center;
 }
@@ -362,6 +366,10 @@ p.front_p {
 	background-image: url(images/infographic_homepage.png);
 }
 
+#noom_bg {
+	background-image: url(images/noom_homepage.jpg);
+}
+
 .portfolio_copy {
 	position: relative;
     top: 50%;
@@ -461,8 +469,8 @@ p.front_p {
 .constraints h6 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 11px;
+	font-weight: 800;
+	font-size: 13px;
 }
 
 .constraints ul {
@@ -532,6 +540,7 @@ p.front_p {
 .contact {
 	min-height: 100vh;
 	overflow: auto;
+	text-align: center;
 }
 
 .contact_info {
@@ -705,36 +714,12 @@ p.front_p {
 		padding-bottom: 20px;
 	}
 
-	.left, .right {
-		float: none !important;
-		margin: 0 auto;
-	}
-
 	nav {
 		text-align: center;
 	}
 
-	#nav {
-		border: none;
-		padding: 15px 0;
-	}
-
-	.nav {
-		padding: 12px 0 10px 0;
-		margin: 0 auto;
-		max-width: 90%;
-		text-align: center;
-	}
-
 	.nav>li {
-		width: 32%;
-	}
-
-	.name {
-		border-bottom: 1px dotted #d2d2d2;
-		padding-bottom: 12px;
-		width: 100%;
-		margin: 0 auto;
+		width: 70px;
 	}
 
 	.name a {
