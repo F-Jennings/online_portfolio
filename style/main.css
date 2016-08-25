@@ -482,15 +482,26 @@ p.front_p {
 	color: #13acc2;
 }
 
-.constraints ul {
+.space ul {
 	margin: 20px 40px;
 }
 
-.constraints ul li {
+.space ul li {
 	list-style-type: disc;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	padding: 10px 10px;
+}
+
+.space a {
+	color:  #13acc2;
+	font-weight: 400;
+	border-bottom: 1px solid transparent;
+	transition: border 0.3s ease-in-out;
+}
+
+.space a:hover {
+	border-bottom: 1px solid #13acc2;
 }
 
 .problem {
