@@ -467,7 +467,11 @@ p.front_p {
 }
 
 .constraints {
-	margin-top: 20px;
+	margin-top: 40px;
+}
+
+.constraints.first {
+	margin-top: 15px;
 }
 
 .constraints h6 {
