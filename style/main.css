@@ -489,7 +489,7 @@ p.front_p {
 	text-transform: uppercase;
 	font-weight: 800;
 	font-size: 13px;
-	color: #13acc2;
+	/*color: #13acc2;*/
 }
 
 .space ul {
