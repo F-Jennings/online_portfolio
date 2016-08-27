@@ -536,14 +536,16 @@ p.front_p {
 	text-align: center;
 }
 
-.go_back a {
+.go_back a,
+.constraints a {
 	color: #13acc2;
 	font-weight: 400;
 	border-bottom: 1px solid transparent;
 	transition: border 0.3s ease-in-out;
 }
 
-.go_back a:hover {
+.go_back a:hover,
+.constraints a:hover {
 	border-bottom: 1px solid #13acc2;
 }
 
