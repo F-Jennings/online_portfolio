@@ -413,14 +413,20 @@ p.front_p {
 .bottom_nav {
   max-width: 700px;
   width: 90%;
-  margin: 80px auto 60px auto;
+  margin: 70px auto 60px auto;
     text-align: center;
   }
 
 .bottom_nav ul li {
   display: inline-block;
-  padding: 5px 15px;
+  padding: 5px 15px 5px 0;
 }
+
+.bottom_nav ul li::last-child {
+  display: inline-block;
+  padding-right: 0px;
+  }
+
 
 .bottom_nav ul li a {
     font-family: 'Lato', sans-serif;
@@ -437,13 +443,7 @@ p.front_p {
   cursor: pointer;
 }
 
-.go_back {
-  padding: 30px 0;
-  margin: 30px auto;
-  text-align: center;
-}
 
-.go_back a,
 .constraints a {
   color: #13acc2;
   font-weight: 400;
@@ -451,7 +451,6 @@ p.front_p {
   transition: border 0.3s ease-in-out;
 }
 
-.go_back a:hover,
 .constraints a:hover {
   border-bottom: 1px solid #13acc2;
 }
