@@ -410,6 +410,33 @@ p.front_p {
   margin-top: 40px;
 }
 
+.bottom_nav {
+  max-width: 700px;
+  width: 90%;
+  margin: 80px auto 60px auto;
+    text-align: center;
+  }
+
+.bottom_nav ul li {
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+.bottom_nav ul li a {
+    font-family: 'Lato', sans-serif;
+    color: #c5c5c5;
+    font-weight: 400;
+    font-size: 14px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom_nav ul li a:hover {
+  color: #13acc2;
+  border-bottom: 1px solid #13acc2;
+  cursor: pointer;
+}
+
 .go_back {
   padding: 30px 0;
   margin: 30px auto;
