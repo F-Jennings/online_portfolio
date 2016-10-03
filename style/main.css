@@ -99,6 +99,7 @@ p.front_p {
 
 .center {
   margin: 0 auto;
+  text-align: center;
 }
 
 .left {
@@ -385,6 +386,7 @@ p.front_p {
   list-style-type: disc;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  letter-spacing: 0.5px;
   padding: 7px 10px;
 }
 

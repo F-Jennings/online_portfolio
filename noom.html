@@ -12,7 +12,7 @@ leapis.com/css?family=Crimson+Text:400,700,600' rel='stylesheet' type='text/css'
     <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body> 
     <nav id="nav">
         <div class="left  name">
             <a href="index.html">Meaghan Choi</a>
@@ -34,36 +34,67 @@ leapis.com/css?family=Crimson+Text:400,700,600' rel='stylesheet' type='text/css'
     <div class="slim">
         <div class="constraints">
             <h6>Background</h6>
-            <p>Before I get into the nitty gritty of this project, there's a few details you'll need to know.</p><p class="heading"><b>First</b>, Noom has 2 core user groups, B2B and B2C users. B2B users are recommended to Noom programs by their healthcare/insurance providers and automatically paid users. B2C users are individuals who access Noom directly, and can enter the app as free users or paid users. Free users always have the option of enrolling into a paid program.</p> 
+            <p>Before I get into the nitty gritty of this project, there's a few details you'll need to know.</p>
+            <p class="heading"><b>First</b>, Noom has 2 core user groups, B2B and B2C users. B2B users are recommended to Noom programs by their healthcare/insurance providers and are automatically paid users. B2C users are individuals who access Noom directly, and can enter the app as free users or paid users. Free users always have the option of enrolling into a paid program.</p>
             <p class="heading"><b>Second</b>, in order to enroll in a paid program, both B2B and B2C users need to input a Unique Program ID (UPID) sent to them when they initially enroll in a paid program.</p>
         </div>
         <div class="constraints">
             <h6>Objective</h6>
-            <p>The overall objective of this project was to improve the user experience for all users coming into the app with or without a UPID.</p>
+            <p>The overall objective of this project was to improve the user experience for all users coming into the app with or without a UPID. The largest problems with the current flow in no particular order were:
+                <ul>
+                    <li>The signup is confusing Free users who are asking for a UPID.</li>
+                    <li>Users are downloading the app but not completing signup.</li>
+                    <li>New Users entering the program do not know what the program offers nor do they understand the paid programs.</li>
+                    <li>The signup is different on IOS/Android making collateral and support confusing for user onboarding.</li>
+                </ul>
+            </p>
+            <p class="heading">On top of solving some of the problems with the current signup, the team also hoped to incorporate the newly designed buyflow (a second project I was running concurrently) into the signup flow.</p>
             <div class="problem">
-              <p>Its important to note that imporvements to the onboarding collateral and in-app onboarding were not within the scope of this project.</p>
+                <p>Its important to note that improvements to the onboarding collateral and in-app onboarding were not within the scope of this project.</p>
             </div>
         </div>
         <div class="constraints">
-          <h6>Current Flow</h6>
-          <p>This project was first initated due complaints and inquiries by users who were unable to complete signup.</p>
-          <img src ="images/noom_currentflow.png" class="full_image border">
-          <h5 class="caption">Current Sign Up Flow</h5>
+            <h6>Current Flow</h6>
+            <p>Upon analysis of the current signup, it was clear that the flow would require major changes to incoporate the necessary changes to address the problems with the current flow. While the journey itself appears very simple, it is filled with redundant input fields and screens which users indicated were frustrating.</p>
+            <img src="images/noom_currentflow.png" class="full_image">
+            <p>The biggest issue with the current signup process was the initial account creating screen. This screen is where the signup flow experienced the largest drop off. I hypothesized that it was due to the confusing language and layout of this screen.</p>
+            <div class="center">
+              <img src="images/noom_currentselection.png" class="full_image" style="max-width: 270px;">
+            </div>
         </div>
         <div class="constraints">
-          <h6>User Stories and Data Requirements</h6>
-          <p>Explain what they are, list</p>
+            <h6>User Stories</h6>
+            <p>Noom's projects use a set of user stories to guide design decisions, and as loose objectives in their design projects. These user stories outline tasks and objectives that users should be able to successfully complete/understand.</p>
+            <img src="images/noom_userstories.png" class="full_image">
+            <div class="problem">
+              <p>The user demographic for B2B users is very different from B2C users. Their age, interests, technical expertise are quite different, and this experience needed to be catered to both users.</p>
+            </div>
         </div>
         <div class="constraints">
-        <h6>Proposed User Flow</h6>
-        <p></p>
+            <h6>Proposed User Flow</h6>
+            <p>In order to address the problems with the current signup, the changed needed to occur at a process level. Specifically, the pathing of users through the signup process needed to be changed. Using the user stories, data requirements and technical constraints involved in this project, I proposed the following user flow.</p>
+            <img src="images/noom_newflow.png" class="full_image" >
+            <p>At first glance this flow is much more complex, but it is designed to create an optimized experience for each user entering the app. It may also appear much longer, but this is due to the entrypoint to the buyflow directly in the signup flow. The main changes in this flow are with the location and method of separating free and paid users.</p>
         </div>
         <div class="constraints">
-        <h6>User Testing and Iteration</h6>
-        <p></p>
+            <h6>User Testing and Iteration</h6>
+            <p>I created a high fidelity prototype based off of the new user flow. Since there are so many different users with different objectives accessing the app, it was important to do itertive testing of all the user scenarios. A total of 13 different user tests were conducted for:</p>
+            <ul>
+              <li>B2B user</li> 
+              <li>B2C free user</li> 
+              <li>B2C free user who purchases in the signup flow</li>
+              <li>B2C paid user</li>
+              <li>B2B/B2C user who already has an account</li>
+            </ul>
+            <p>After each user tests, the results were consolidated and recommended changes implemented for the next round of testing. It was important during these tests to ensure that changing part of the designs from results from one test scenario would not affect the experience of a user from another test scenario.</p>
         </div>
         <div class="constraints">
-          <h6>Final Design</h6>
+            <h6>Final Design</h6>
+            <p>After consolidating all the test results and implementing the changes into the designs, the final visual design were created. This phase took a great deal longer that I originally expected since each input field needed a unique error state.</p>
+            <img src="images/noom_finaldesigns.png" class="full_image"/>
+            <h5 class="caption">Final Design Specifications</h5>
+            <p>For a closer look at this flow, you can go through the final tested prototype <a href="https://marvelapp.com/28bhd7a" target="_blank">here</a>. Note that the screens in the prototype have been intentionally cut off at the bottom. This was done so that during testing, the bottom of the screen containing the CTA did not fall below the fold. The biggest difference between the initially proposed new flow and the final product are in the three screens used to separate free and paid users.</p>
+            <img src="images/noom_mobile.png" class="full_image" >
         </div>
         <div class="bottom_nav">
             <ul>
