@@ -74,6 +74,7 @@ p {
 
 b {
   font-weight: 400;
+  text-decoration: underline;
 }
 
 h2 .bold {
@@ -360,6 +361,10 @@ p.front_p {
   margin-top: 40px;
 }
 
+.constraints .heading {
+  padding-top: 10px;
+}
+
 .constraints.first {
   margin-top: 15px;
 }
@@ -373,14 +378,14 @@ p.front_p {
 }
 
 .constraints ul {
-  margin: 20px 40px;
+  margin: 10px 40px;
 }
 
 .constraints ul li {
   list-style-type: disc;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  padding: 10px 10px;
+  padding: 7px 10px;
 }
 
 .constraints a {
